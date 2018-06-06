@@ -2,10 +2,10 @@ import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import SignupForm from './form/signupForm';
-import './signup.css';
+import SigninForm from './form/signinForm';
+import '../../assets/css/signin.css';
 
-const Signup = () => {
+const Signin = () => {
     return(
         <div className="container gradient">
             <div className="row">
@@ -14,7 +14,7 @@ const Signup = () => {
                         <Typography>
                             Sign In
                         </Typography>
-                        <SignupForm/>
+                        <SigninForm/>
                     </CardContent>
                 </Card>
             </div>
@@ -22,4 +22,4 @@ const Signup = () => {
     );
 }
 
-export default Signup;
+export default Signin;

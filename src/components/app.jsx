@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Signup from './signup/signup';
+import Signin from './signin/signin';
 import Dashboard from './dashboard/dashboard';
 import PageNotFound from './error/pageNotFound';
 
@@ -9,7 +9,7 @@ export default class App extends Component{
         return(
             <BrowserRouter>
                 <Switch>
-                    <Route exact path="/" component={Signup} />
+                    <Route exact path="/" component={Signin} />
                     <Route path="/dashboard" component={Dashboard} />
                     <Route component={PageNotFound} />
                 </Switch>

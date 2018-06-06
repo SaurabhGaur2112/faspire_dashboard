@@ -7,7 +7,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import { storeTitle, newsContent, content, sideContent } from './store';
 import Divider from '@material-ui/core/Divider';
 import { NavLink } from 'react-router-dom';
-import './leftbar.css';
+import '../../../assets/css/leftbar.css';
 
 const drawerWidth = 240;
 
