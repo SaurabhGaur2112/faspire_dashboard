@@ -1,0 +1,28 @@
+.MuiIcon-root-150{
+    font-size: 15px !important;
+    margin-left: 5px !important;
+}
+.MuiButton-label-135{
+    font-size: 13px !important;
+}
+.buttonFont{
+    font-size: 13px;
+}
+.buttonPosition{
+    float: right;
+}
+.MuiSvgIcon-root-73, .MuiIcon-root-182{
+    font-size: 17px !important;
+}
+.MuiIconButton-root-64{
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.MuiTableHead-root-154 th:nth-child(1){
+    width: 60px !important;
+    padding: 4px 11px 4px 24px !important;
+}
+.eye_icons{
+    font-size: 18px;
+}

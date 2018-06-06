@@ -14,7 +14,7 @@ const styles = theme => ({
     toolbar: theme.mixins.toolbar,
 });
 
-function Main(props){
+function Router(props){
     const { classes } = props;
     return(
         <main className={classes.content}>
@@ -42,4 +42,4 @@ function Main(props){
     );
 }
 
-export default withStyles(styles)(Main);
+export default withStyles(styles)(Router);
