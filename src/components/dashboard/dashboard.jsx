@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Navbar from '../bars/navbar/navbar';
 import Leftbar from '../bars/leftbar/leftbar';
-import Router from './router';
+import Routing from './routing';
 import { HashRouter } from 'react-router-dom';
 
 const styles = theme => ({
@@ -25,7 +25,7 @@ class Dashboard extends Component{
                 <HashRouter>
                     <Fragment>
                         <Leftbar/>
-                        <Router/>
+                        <Routing/>
                     </Fragment>
                 </HashRouter>
             </div>

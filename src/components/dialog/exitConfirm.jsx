@@ -30,7 +30,9 @@ export default class ExitConfirm extends Component{
                     color="inherit"
                     onClick={this.handleLogout}
                 >
-                    <AccountCircle/>
+                    <i class="material-icons">
+                        power_settings_new
+                    </i>
                 </IconButton>
 
                 <Dialog

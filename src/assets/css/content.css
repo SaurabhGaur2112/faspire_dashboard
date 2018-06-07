@@ -26,3 +26,8 @@
 .eye_icons{
     font-size: 18px;
 }
+.MuiFormGroup-root-264{
+    flex-direction: unset !important;
+    margin-left: 10px;
+    margin-top: 5px;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Home, News, Tips, Trends, House, Designers, Stylists, Actors, Models, Artists,
     Photographers, Coordinators, People, Apply, Associates, Sponsors, Profiles } from './content';
+import Add from './content/news/pages/add';
 import { withStyles } from '@material-ui/core/styles';
 import { Route } from 'react-router-dom';
 
@@ -14,7 +15,7 @@ const styles = theme => ({
     toolbar: theme.mixins.toolbar,
 });
 
-function Router(props){
+function Routing(props){
     const { classes } = props;
     return(
         <main className={classes.content}>
@@ -36,10 +37,13 @@ function Router(props){
                 <Route exact path="/apply" component={Apply} />               
                 <Route exact path="/associates" component={Associates} />               
                 <Route exact path="/sponsors" component={Sponsors} />               
-                <Route exact path="/profiles" component={Profiles} />               
+                <Route exact path="/profiles" component={Profiles} />   
+
+
+                <Route exact path="/newsAdd" component={Add} />                                           
             </div>
         </main>
     );
 }
 
-export default withStyles(styles)(Router);
+export default withStyles(styles)(Routing);

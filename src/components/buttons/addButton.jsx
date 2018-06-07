@@ -4,7 +4,7 @@ import AddIcon from '@material-ui/icons/Add';
 
 const AddButton = () => {
     return(
-        <Button variant="raised" color="secondary" className="buttonFont buttonPosition">
+        <Button size="small" variant="raised" color="secondary" className="buttonFont buttonPosition">
             Add
             <AddIcon />
         </Button>
