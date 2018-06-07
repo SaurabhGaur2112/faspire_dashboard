@@ -3,7 +3,7 @@ import ListCoordinators from './list/listCoordinators';
 import AddButton from '../../../buttons/addButton';
 import '../../../../assets/css/content.css';
 import { NavLink } from 'react-router-dom';
-import { Paper, Grid, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 
 export default class Coordinators extends Component{
     render(){
@@ -17,7 +17,7 @@ export default class Coordinators extends Component{
                     </Grid>
 
                     <Grid item xs="1">
-                        <NavLink to="/photographersAdd">
+                        <NavLink to="/coordinatorsAdd">
                             <AddButton/><br/>
                         </NavLink>
                     </Grid>

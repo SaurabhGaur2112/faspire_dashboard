@@ -7,7 +7,7 @@ import { Route } from 'react-router-dom';
 import NewsAdd from './content/news/pages/add';
 import TipsAdd from './content/tips/pages/add';
 import TrendsAdd from './content/trends/pages/add';
-import HouseAdd from './content/trends/pages/add';
+import HouseAdd from './content/house/pages/add';
 import DesignerAdd from './content/designers/pages/add';
 import StylistsAdd from './content/stylists/pages/add';
 import ActorsAdd from './content/actors/pages/add';

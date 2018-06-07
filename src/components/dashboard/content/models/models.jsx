@@ -3,7 +3,7 @@ import ListModels from './list/listModels';
 import AddButton from '../../../buttons/addButton';
 import '../../../../assets/css/content.css';
 import { NavLink } from 'react-router-dom';
-import { Paper, Grid, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 
 export default class Models extends Component{
     render(){

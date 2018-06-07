@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardContent, Typography, CardActions, Button, Grid, Paper, TextField, FormControl, FormLabel, RadioGroup, FormControlLabel } from '@material-ui/core';
+import { Card, CardContent, CardActions, Button, Grid, TextField, FormControl, FormLabel, RadioGroup, FormControlLabel } from '@material-ui/core';
 import Radio from '@material-ui/core/Radio';
 
 export default class AddNews extends Component{

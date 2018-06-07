@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import AddTrends from './addTrends';
 import BackButton from '../../../../buttons/backButton';
 import { NavLink } from 'react-router-dom';
-import { Paper, Grid, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 
 export default class Add extends Component{
     render(){
@@ -16,7 +16,7 @@ export default class Add extends Component{
                     </Grid>
 
                     <Grid item xs="1">
-                        <NavLink to="/news">
+                        <NavLink to="/trends">
                             <BackButton/><br/>
                         </NavLink>
                     </Grid>

@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import AddNews from './addNews';
 import BackButton from '../../../../buttons/backButton';
 import { NavLink } from 'react-router-dom';
-import { Paper, Grid, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 
 export default class Add extends Component{
     render(){
