@@ -43,6 +43,7 @@ export default class AddNews extends Component{
                                     <RadioGroup
                                         aria-label="type"
                                         name="type"
+                                        className="radio-position"
                                     >
                                         <FormControlLabel value="1" control={<Radio/>} label="Add" />
                                         <FormControlLabel value="2" control={<Radio/>} label="Video" />
@@ -73,20 +74,25 @@ export default class AddNews extends Component{
                                 />
 
                                 <input 
-                                    id="contained-button-file"
                                     type="file"
                                     accept="image/*"
                                     style={{display: 'none'}}
+                                    id="upload-file"
                                 />
 
-                                <Button 
-                                    variant="outlined" 
-                                    color="primary" 
-                                    size="small" 
-                                    style={{marginTop: '15px'}}
+                                <label
+                                    htmlFor="upload-file"
                                 >
-                                    Upload Thumbnail
-                                </Button>
+                                    <Button 
+                                        variant="outlined" 
+                                        color="primary" 
+                                        size="small" 
+                                        style={{marginTop: '15px'}}
+                                        component="span"
+                                    >
+                                        Upload Thumbnail
+                                    </Button>
+                                </label>
                             </Grid>
                         </Grid>
 

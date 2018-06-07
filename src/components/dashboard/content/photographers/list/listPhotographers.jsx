@@ -5,11 +5,11 @@ import Tooltip from '@material-ui/core/Tooltip';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TablePagination from '@material-ui/core/TablePagination';
-import Icon from '@material-ui/core/Icon';
-import IconButton from '@material-ui/core/IconButton';
-import DeleteIcon from '@material-ui/icons/Delete';
 import { TableHead, TableRow, TableCell, TableSortLabel, Paper } from '@material-ui/core';
 import { photographerHeader } from '../../../store/tableStore';
+import EyeButton from '../../../../buttons/eyeButton';
+import EditButton from '../../../../buttons/editButton';
+import DeleteButton from '../../../../buttons/deleteButton';
 
 let counter = 0;
 function createData(name, calories, fat, carbs, protein) {
@@ -27,7 +27,7 @@ class EnhancedTableHead extends Component{
 
         return(
         <TableHead>
-            <TableRow>
+            <TableRow className="table_column">
                 {photographerHeader.map(column => {
                     return(
                         <TableCell
@@ -164,15 +164,9 @@ class ListPhotographers extends Component{
                                         <TableCell>{n.calories}</TableCell>
                                         <TableCell>{n.fat}</TableCell>
                                         <TableCell>
-                                            <IconButton>
-                                                <i class="material-icons eye_icons">
-                                                    remove_red_eye
-                                                </i>
-                                            </IconButton>
-                                            <IconButton>
-                                                <Icon>edit_icon</Icon>
-                                            </IconButton>
-                                            <IconButton><DeleteIcon/></IconButton>
+                                            <EyeButton />
+                                            <EditButton />
+                                            <DeleteButton />
                                         </TableCell>
                                     </TableRow>
                                 );

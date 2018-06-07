@@ -6,7 +6,7 @@ const AddButton = () => {
     return(
         <Button size="small" variant="raised" color="secondary" className="buttonFont buttonPosition">
             Add
-            <AddIcon />
+            <AddIcon style={{fontSize: '18px'}}/>
         </Button>
     );
 }
