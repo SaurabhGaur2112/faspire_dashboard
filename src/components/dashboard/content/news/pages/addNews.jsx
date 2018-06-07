@@ -90,18 +90,6 @@ export default class AddNews extends Component{
                             </Grid>
                         </Grid>
 
-                         <Grid container spacing={24}>
-                            <Grid item xs>
-                                <TextField 
-                                    label="Footer"
-                                    fullWidth
-                                    required
-                                />
-                            </Grid>
-                            <Grid item xs>
-                                
-                            </Grid>
-                        </Grid>
                     </CardContent>
                     <CardActions>
                         <Button variant="raised" color="primary">Submit</Button>

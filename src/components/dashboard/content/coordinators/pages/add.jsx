@@ -1,28 +1,27 @@
 import React, { Component, Fragment } from 'react';
-import ListArtists from './list/listArtists';
-import AddButton from '../../../buttons/addButton';
-import '../../../../assets/css/content.css';
+import AddCoordinators from './addCoordinators';
+import BackButton from '../../../../buttons/backButton';
 import { NavLink } from 'react-router-dom';
 import { Paper, Grid, Typography } from '@material-ui/core';
 
-export default class Artists extends Component{
+export default class Add extends Component{
     render(){
         return(
             <Fragment>
-                <Grid container>
+                <Grid container style={{marginBottom: '20px'}}>
                     <Grid item xs="11">
                         <Typography style={{marginTop: '10px'}}>
-                            <span style={{fontSize: '20px'}}>Makeup Artists</span>
+                            <span style={{fontSize: '20px'}}>Add Coordinators</span>
                         </Typography>
                     </Grid>
 
                     <Grid item xs="1">
-                        <NavLink to="/artistsAdd">
-                            <AddButton/><br/>
+                        <NavLink to="/news">
+                            <BackButton/><br/>
                         </NavLink>
                     </Grid>
                 </Grid>
-                <ListArtists/>
+                <AddCoordinators />
             </Fragment>
         );
     }

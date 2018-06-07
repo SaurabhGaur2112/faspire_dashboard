@@ -4,7 +4,7 @@ import AddIcon from '@material-ui/icons/Add';
 
 const BackButton = () => {
     return(
-        <Button size="small" variant="raised" color="secondary" className="buttonFont">
+        <Button size="small" variant="raised" color="secondary" className="buttonFont buttonPosition">
             <i class="material-icons">
                 keyboard_backspace
             </i>

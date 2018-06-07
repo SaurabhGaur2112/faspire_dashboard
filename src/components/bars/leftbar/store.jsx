@@ -61,20 +61,12 @@ export const content = [
 
 export const sideContent = [
     {
-        'title': 'Apply',
-        'link': '/apply'
-    },
-    {
         'title': 'Associates',
         'link': '/associates'
     },
     {
         'title': 'Sponsors',
         'link': '/sponsors'
-    },
-    {
-        'title': 'User Profiles',
-        'link': '/profiles'
     }
 ];
 
